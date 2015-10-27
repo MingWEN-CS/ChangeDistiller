@@ -13,7 +13,7 @@ import ch.uzh.ifi.seal.changedistiller.model.entities.SourceCodeChange;
 import ch.uzh.ifi.seal.changedistiller.model.entities.Update;
 
 
-public class changeAnalysis {
+public class ChangeAnalysis {
 	public static String loc = "../Datasets/";
 	public static String pro = "SWT";
 	public static String version = "3.1";
