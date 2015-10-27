@@ -90,7 +90,7 @@ public class changeAnalysis {
 //			System.out.println(hash1 + "\t" + hash2);
 			String file1 = prefix + "changes" + File.separator + hash1 + ".java";
 			String file2 = prefix + "changes" + File.separator + hash2 + ".java";
-			System.out.print(hash1 + "\t" + hash2 + "\t");
+			System.out.println(hash1 + "\t" + hash2 + "\t");
 			changeDistill(file1, file2);
 			
 		}
